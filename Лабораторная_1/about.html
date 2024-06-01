@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="#" style="display: block; margin-bottom: 100px">О нас</a>
+    <img src="./img/картинка.jpg" alt="" width="200px" height="150px" />
+    <a href="./img/картинка.jpg" download="картинка.jpg">Скачать файл</a>
+    <svg xmlns="http://www.w3.org/2000/svg" height="400" width="450">
+      <path
+        d="M100 350 250 50m0 0 150 300"
+        stroke="red"
+        stroke-width="3"
+        fill="none"
+      />
+      <path d="M175 200h150" stroke="green" stroke-width="3" fill="none" />
+      <path
+        d="M100 350q150-300 300 0"
+        stroke="#00f"
+        stroke-width="5"
+        fill="none"
+      />
+      <!-- Mark relevant points -->
+      <g stroke="#000" stroke-width="3">
+        <circle cx="100" cy="350" r="3" />
+        <circle cx="250" cy="50" r="3" />
+        <circle cx="400" cy="350" r="3" />
+      </g>
+      <!-- Label the points -->
+      <g font-size="30" font-family="sans-serif" text-anchor="middle">
+        <text x="100" y="350" dx="-30">A</text>
+        <text x="250" y="50" dy="-10">B</text>
+        <text x="400" y="350" dx="30">C</text>
+      </g>
+    </svg>
+    <svg height="100" width="100" style="display: block">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="red"
+        stroke-width="2"
+        fill="white"
+      />
+    </svg>
+    <svg width="400" height="110">
+      <rect
+        width="300"
+        height="100"
+        style="fill: rgb(0, 0, 0); stroke-width: 3; stroke: rgb(0, 0, 0)"
+      />
+    </svg>
+    <svg height="200" width="500">
+      <polyline
+        points="10,15 20,10 30,20 50,90, 40,120 180,120"
+        style="fill: none; stroke: black; stroke-width: 3"
+      />
+    </svg>
+    <svg
+      viewBox="-250 -250 500 500"
+      xmlns="http://www.w3.org/2000/svg"
+      width="200"
+    >
+      <circle r="500" fill="#ff7300" />
+      <rect
+        width="300"
+        height="100"
+        style="fill: rgb(0, 0, 0); stroke-width: 3; stroke: rgb(0, 0, 0)"
+      />
+    </svg>
+  </body>
+</html>
